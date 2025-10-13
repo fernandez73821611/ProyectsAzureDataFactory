@@ -6,4 +6,4 @@ ETL
 
 **Ejecicio 01:** Tengo un container con la carpeta input dentro de ella archivos con extensiones txt, y xlsx , la finalidad es llecarlo a otro contendor conde este en carpetas separadas con sus respectivas extensiones .
 
-![Imagen de desarrollo Proyect ADF](imagenes\Proyect01.png)
+![Imagen de desarrollo Proyect ADF](imagenes/Proyect01.png)
