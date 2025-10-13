@@ -17,6 +17,6 @@ ETL
 - For Each: Bucle que va a ir recorriendo y ver las extensiones para llevarlo a su respectiva carpeta
 - Delete: los archivos anteriores en su ruta original se eliminan
 - Fin Proyect:Copia de multiples archivos con bucles y condicionales anidados
-- Thak you¡
+- Thank you¡
 
 ![Imagen de desarrollo Proyect ADF](imagenes/Proyec01_01.png)
