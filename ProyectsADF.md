@@ -2,9 +2,24 @@
 
 **AZURE DATA FACTORY:** Servicio de integracion de datos dentros de Azure, es un orquestador
 de pipelines(canalizaciones) que te permiten crear, automatizar flujo de trabajos para procesos
-ETL
+ETL  
 
-**Ejecicio 01:** Tengo un container con la carpeta input dentro de ella archivos con extensiones txt, y xlsx , la finalidad es llecarlo a otro contendor conde este en carpetas separadas con sus respectivas extensiones .
+**Ejecicio 01:** LLevar dos archivos csv a dos containers de COSMOSDB.
+
+![Imagen de propuesta Proyect ADF](imagenes/sesion01.png)
+**Desarrollo:**
+- Get Metada: Obtenmos los chilItemns como nombre y tipo
+- Set variable:Obtiene la lista de los chilItems
+- Iteracion ForEach: recorre la lista de cada valor del chilItems de los archivos
+- CosmosDB: Creamos los container respectivos
+- If Condicional anidado: Verifica si el nombre de un archivos coincide con un string con la funcion equals
+- Copy data anidado: si la condicion es verdadera copia el archivo Departmets.csv, caso contrario copia Categories.csv
+- For Each: Bucle que va a ir recorriendo y ver las extensiones para llevarlo a su respectiva carpeta
+- Fin Proyect:Copia de dos acrchivos csv y lo lleva un container de ConsmosDB
+- Thank you¡
+![Imagen de desarrollo Proyect ADF](imagenes/DeSession01.png)
+![Imagen de desarrollo Proyect ADF](imagenes/De2Sesion01.png)
+**Ejecicio 02:** Tengo un container con la carpeta input dentro de ella archivos con extensiones txt, y xlsx , la finalidad es llecarlo a otro contendor conde este en carpetas separadas con sus respectivas extensiones .
 
 ![Imagen de propuesta Proyect ADF](imagenes/Proyect01.png)
 
