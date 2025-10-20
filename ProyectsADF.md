@@ -38,7 +38,7 @@ ETL
 
 ![Resultado de Ejecucion ADF](imagenes/resultProyect01.png)
 
-**Ejecicio 03:** LLevar dos tablas de base de datos de AZURE SQL DATABASE , mediante 
+**Ejecicio 03:** ESTE EJEMPLO ES SOBRE EL METADATA-DRIVEN :LLevar dos tablas de base de datos de AZURE SQL DATABASE , mediante 
 la actividad de LOOKUP y iteraciones, a un data lake 
 
 ![Imagen de propuesta Proyect ADF](imagenes/P2_01.png)
