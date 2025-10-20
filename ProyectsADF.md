@@ -48,5 +48,5 @@ la actividad de LOOKUP y iteraciones, a un data lake
 - Iteracion ForEach: recorre la lista para obtener su schema y nombre de archivo de cada registro
 - Se almacena en un AZURE DATALAKE STORAGE GEN2 en sus respecticas carpetas con nombre del schema
 - Thank you¡
-![Imagen de desarrollo Proyect ADF](imagenes/DeSession01.png)
-![Imagen de desarrollo Proyect ADF](imagenes/De2Sesion01.png)
+![Imagen de desarrollo Proyect ADF](imagenes/Proyect02_02.png)
+![Imagen de desarrollo Proyect ADF](imagenes/Proyect02_03.png)
