@@ -37,3 +37,16 @@ ETL
 ![Imagen de desarrollo Proyect ADF](imagenes/Proyec01_01.png)
 
 ![Resultado de Ejecucion ADF](imagenes/resultProyect01.png)
+
+**Ejecicio 03:** LLevar dos tablas de base de datos de AZURE SQL DATABASE , mediante 
+la actividad de LOOKUP y iteraciones, a un data lake 
+
+![Imagen de propuesta Proyect ADF](imagenes/P2_01.png)
+**Desarrollo:**
+- Lookup: Obtenmos registros de la tabla de control como el schema y el nombre de tabla
+- Set variable:lo guardamos en una variable (array)
+- Iteracion ForEach: recorre la lista para obtener su schema y nombre de archivo de cada registro
+- Se almacena en un AZURE DATALAKE STORAGE GEN2 en sus respecticas carpetas con nombre del schema
+- Thank you¡
+![Imagen de desarrollo Proyect ADF](imagenes/DeSession01.png)
+![Imagen de desarrollo Proyect ADF](imagenes/De2Sesion01.png)
